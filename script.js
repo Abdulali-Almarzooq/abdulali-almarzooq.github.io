@@ -1,4 +1,3 @@
-/* Update this file to change portfolio text, project information and links. */
 const EMAIL = 'abdulalialmarzooq7@gmail.com';
 const DIRECTORY_URL = 'https://graduate-directory-2024.github.io/iau-graduate-studies-directory/';
 const DICTIONARY = {
@@ -99,7 +98,7 @@ const externalIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6
 const caseIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>';
 function render(){
  const t=DICTIONARY[lang];document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
- document.title=lang==='ar'?'عبدالعالي المرزوق | المعرض المهني':'Abdulali Almarzooq | IT & Data Professional';
+ document.title=lang==='ar'?'عبدالعلي المرزوق | المعرض المهني':'Abdulali Almarzooq | IT & Data Professional';
  document.querySelectorAll('[data-i18n]').forEach(el=>{const v=t[el.dataset.i18n];if(v)el.textContent=v});
  document.querySelector('#langSwitch span').textContent=lang==='ar'?'English':'العربية';
  const closeCert=document.getElementById('closeCertPreview');if(closeCert)closeCert.setAttribute('aria-label',t.closePreview);
